@@ -1,0 +1,501 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+    /* Mobile First Design Starts */
+
+/* Navbar Start */
+.navbar {
+    padding-top: 33px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid #417BA5;
+}
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+}
+.navbar-logo-img {
+    width: 40%;
+    height: auto;
+}
+.navbar-logo-txt {
+    font-size: 15px;
+    line-height: 15px;
+}
+.navbar-btns {
+    display: none;
+}
+.navbar-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconify {
+    font-size: 30px;
+    color: #000000;
+}
+/* Navbar End */
+
+
+
+/* Hero Starts */
+.hero {
+    padding-top: 53px;
+    padding-bottom: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: auto;
+}
+.hero-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-details-img {
+    width: 80%;
+    height: auto;
+}
+.hero-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+.hero-titles-haeding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-titles-haeding-text {
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.hero-titles-haeding-text-bld {
+    line-height: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: 'Lobster', cursive;
+    border-bottom: 2px solid #000000;
+}
+.hero-titles-pera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.hero-titles-pera-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.hero-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.hero-about-text {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+}
+.hero-about-icon {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 900;
+    color: #000000;;
+}
+/* Hero Ends */
+
+/* Information Start  */
+.information {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #000000;
+    height: auto;
+}
+.information-card {
+    width: 370px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information-card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.information-card-header-img {
+    width: 20%;
+}
+.information-card-header-pera {
+    color: #FFFFFF;
+    text-align: center;
+}
+.card-border {
+    display: none;
+}
+/* .card-border-img {} pore use korte hbe */
+/* Information End */
+
+/* Mobile First Design Ends */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    
+    
+    /* Navbar Start */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 20px;
+    }
+    .navbar-name-text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 150px;
+        font-size: 14px;
+        color: #A4A4A4;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color:  #D5D7D5;
+        border-radius: 5px;
+    }
+    .nabvar-btn-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        background-color: #000000;
+        border: 1px solid #000000;
+        color: #FFFFFF;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .navbar-icon {
+        display: none;
+    }
+    /* Navbar End */
+
+
+    
+    /* Hero Starts */
+.hero {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px;
+    flex-direction: row-reverse;
+}
+.hero-details-img {
+    width: 100%;
+}
+.hero-titles {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+.hero-titles-haeding-text {
+    text-align: start;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.hero-titles-haeding-text-bld {
+    line-height: 35px;
+    font-size: 32px;
+}
+.hero-titles-pera {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+.hero-titles-pera-text {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.hero-about {
+    flex-direction: row;
+    gap: 15px;
+}
+.hero-about-text {
+    text-align: start;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.hero-about-icon {
+    font-size: 35px;
+    line-height: 50px;
+}
+/* Hero Ends */
+
+
+/* Information starts */
+
+.information {
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.information-card {
+    width: 30%;
+    height: auto;
+}
+.information-card-header {
+    gap: 16px;
+}
+.information-card-header-img {
+    width: 25%;
+    height: auto;
+}
+.information-card-header-pera {
+    font-size: 14px;
+}
+
+/* Information Ends */
+
+}
+    /* Disgn For 768px display Ends */
+
+
+    /* Disgn For 1024px display starts */
+
+
+    @media only screen and (min-width: 1024px) {
+        /* Navbar Start */
+        .navbar {
+            padding-left: 70px;
+            padding-right: 70px;
+        }
+        .navbar-logo-img {
+            width: 111px;
+            height: auto;
+        }
+        .navbar-logo-txt {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        .navbar-btns {
+            gap: 30px;
+        }
+        .navbar-name-text {
+            width: 200px;
+            font-size: 16px;
+        }
+        .nabvar-btn-text {
+            width: 110px;
+            font-size: 16px;
+        }
+        /* Navbar End */
+
+        /* Hero Starts */
+        .hero {
+            padding-left: 85px;
+            padding-right: 85px;
+        }
+        .hero-titles {
+            gap: 50px;
+        }
+        .hero-titles {
+            gap: 40px;
+        }
+        .hero-titles-haeding-text {
+            font-size: 28px;
+            line-height: 40px;
+        }
+        .hero-titles-haeding-text-bld {
+            line-height: 50px;
+            font-size: 60px;
+        }
+        .hero-titles-pera {
+            gap: 20px;
+        }
+        .hero-titles-pera-text {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .hero-about {
+            gap: 20px;
+        }
+        .hero-about-text {
+            font-size: 26px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+        /* Hero Ends */
+
+        
+        /* Information starts */
+
+        .information {
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+        .information-card {
+            width: 60%;
+        }
+        .information-card-header {
+            gap: 20px;
+        }
+        .information-card-header-img {
+            width: 35%;
+        }
+        .information-card-header-pera {
+            font-size: 16px;
+        }
+
+        /* Information Ends */
+    }
+    /* Disgn For 1024px display ends */
+
+
+
+
+        /* Disgn For 1280px display starts */
+        @media only screen and (min-width: 1280px) {
+            
+            /* Navbar Start */
+            .navbar {
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            .navbar-btns {
+                gap: 34px;
+            }
+    /* Navbar End */
+
+
+    
+/* Hero Starts */
+.hero {
+    padding-left: 110px;
+    padding-right: 110px;
+    gap: 50px;
+}
+.hero-titles {
+    gap: 70px;
+}
+.hero-titles-haeding-text {
+    font-size: 30px;
+    line-height: 32px;
+}
+.hero-titles-haeding-text-bld {
+    line-height: 70px;
+    font-size: 72px;
+}
+.hero-titles-pera {
+    gap: 35px;
+}
+.hero-titles-pera-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+.hero-about {
+    gap: 30px;
+}
+.hero-about-text {
+    font-size: 28px;
+    line-height: 35px;
+}
+/* Hero Ends */
+}
+
+
+
+
+
+ /* Disgn For 1280px display ends */
+
+
+
+
+
+ /* Disgn For 1536px display starts */
+    @media only screen and (min-width: 1536px) {
+    /* Navbar Start */
+    .navbar {
+        padding-left: 200px;
+        padding-right: 200px;
+        justify-content: space-between;
+    }
+    .navbar-logo {}
+    .navbar-logo-img {
+        width: 111px;
+        height: auto;
+    }
+    .navbar-logo-txt {
+        font-size: 15px;
+        line-height: normal;
+    }
+    .navbar-btns {}
+    .navbar-name-text {
+        padding-left: 35px;
+        justify-content: flex-start;
+        width: 359px;
+        height: auto;
+        text-align: start;
+    }
+    .nabvar-btn-text {}
+    /* Navbar end */
+
+    }
+   
+  /* Disgn For 1536px display Ends */

@@ -1,0 +1,129 @@
+
+@media only screen and (min-width: 768px) {
+    
+    
+    
+    /* Navbar Start */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-btns {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 20px;
+    }
+    .navbar-name-text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 150px;
+        font-size: 14px;
+        color: #A4A4A4;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color:  #D5D7D5;
+        border-radius: 5px;
+    }
+    .nabvar-btn-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        background-color: #000000;
+        border: 1px solid #000000;
+        color: #FFFFFF;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    .navbar-icon {
+        display: none;
+    }
+    /* Navbar End */
+
+
+    
+    /* Hero Starts */
+.hero {
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px;
+    flex-direction: row-reverse;
+}
+.hero-details-img {
+    width: 100%;
+}
+.hero-titles {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+}
+.hero-titles-haeding-text {
+    text-align: start;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.hero-titles-haeding-text-bld {
+    line-height: 35px;
+    font-size: 32px;
+}
+.hero-titles-pera {
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+.hero-titles-pera-text {
+    text-align: start;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.hero-about {
+    flex-direction: row;
+    gap: 15px;
+}
+.hero-about-text {
+    text-align: start;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.hero-about-icon {
+    font-size: 35px;
+    line-height: 50px;
+}
+/* Hero Ends */
+
+
+/* Information starts */
+
+.information {
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.information-card {
+    width: 30%;
+    height: auto;
+}
+.information-card-header {
+    gap: 16px;
+}
+.information-card-header-img {
+    width: 25%;
+    height: auto;
+}
+.information-card-header-pera {
+    font-size: 14px;
+}
+
+/* Information Ends */
+
+}
+    /* Disgn For 768px display Ends */
